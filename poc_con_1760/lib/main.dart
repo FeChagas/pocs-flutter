@@ -42,17 +42,26 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
+      body: Container(
+        decoration: BoxDecoration(color: Colors.blue),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[HomeBox(title: 'Título Aqui!', onPress: () {})],
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            HomeBox(
+              title: 'Título Aqui!',
+              onPress: () {},
+              imageUrl:
+                  "https://www.cidademarketing.com.br/marketing/wp-content/uploads/2020/11/cinemark_promocao.png",
+            )
+          ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: _incrementCounter,
+      //   tooltip: 'Increment',
+      //   child: Icon(Icons.add),
+      // ),
     );
   }
 }
