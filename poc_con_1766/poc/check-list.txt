@@ -1,0 +1,7 @@
+- Criar um drawer OK
+- Criar uma route chamada Categorias e passar por parâmetro o nome da origem. A origem pode ser a home ou o drawer. OK
+- Criar uma tela de Ofertas e quando retornar para a home, retornar o nome da rota da tela de Ofertas.
+- Criar uma tela de erro
+- Criar uma tela de "Não encontrada" OK
+- Criar uma tela com verificação
+- Criar uma tela sem a opção de voltar (limpar a stack do navihgator)
